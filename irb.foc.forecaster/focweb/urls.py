@@ -9,6 +9,7 @@ import dracula.local_storage.rca.api as rca_api
 # admin.autodiscover()
 
 def one_time_startup():
+    print "For accessing the localhost through VirtualBox use http://10.0.2.2:8080/"
     print rca_api._data
     pass
 
